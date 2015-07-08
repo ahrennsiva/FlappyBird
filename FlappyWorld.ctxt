@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FlappyWorld()
+comment0.text=\r\n\ Constructor\ that\ initializes\ FlappyWorld,\ and\ adds\:\ Flappy,\ the\ ground,\ and\ score\ objects\ for\ each\ digit.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Method\ that\ increases\ a\ counter\ to\ determine\ when\ the\ next\ pipe\ should\ be\ generated.\ Also\ increases\ score\ by\ 1\ everytime\ a\ pipe\ is\ passed.\r\n
+comment2.params=
+comment2.target=Ones\ getOnes()
+comment2.text=\r\n\ Method\ that\ determines\ the\ ones\ digit\ of\ the\ score.\r\n
+comment3.params=
+comment3.target=Tens\ getTens()
+comment3.text=\r\n\ Method\ that\ determines\ the\ tens\ digit\ of\ the\ score.\r\n
+comment4.params=
+comment4.target=Hundreds\ getHundreds()
+comment4.text=\r\n\ Method\ that\ determines\ the\ hundreds\ digit\ of\ the\ score.\r\n
+comment5.params=
+comment5.target=Thousands\ getThousands()
+comment5.text=\r\n\ Method\ that\ determines\ the\ thousands\ digit\ of\ the\ score.\r\n
+comment6.params=
+comment6.target=void\ createPipes()
+comment6.text=\r\n\ Method\ that\ generates\ top\ and\ bottom\ pipe\ objects.\ \r\n\ Uses\ a\ random\ number\ generator\ to\ set\ the\ visibility\ of\ the\ pipe\ (within\ a\ certain\ range\ of\ values).\r\n\ Sets\ distance\ in\ between\ top\ and\ bottom\ pipes\ (within\ a\ certain\ range\ of\ values,\ so\ pipes\ don't\ overalap).\ \r\n
+numComments=7

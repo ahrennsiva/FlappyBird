@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\nMethod\ which\ sets\ the\ image\ for\ the\ ones\ digit.\r\nThis\ is\ based\ on\ a\ series\ of\ if\ statements\ dependent\ on\ score\ value.\r\n\ \r\n
+numComments=1

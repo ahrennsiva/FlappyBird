@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ Method\ which\ allows\ for\ the\ Reset\ button\ on\ the\ Death\ Screen\ to\ be\ clicked.\r\n\ When\ the\ button\ is\ clicked\ the\ game\ will\ restart\ with\ a\ new\ Flappy\ Bird.\r\n
+numComments=1

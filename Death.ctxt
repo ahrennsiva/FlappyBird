@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=thousands\ hundreds\ tens\ ones
+comment0.target=Death(int,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ that\ generates\ world\ for\ post\ Flappy's\ death.\ Also\ adds\ score\ objects\ for\ each\ digit,\ and\ medals\ according\ to\ score\ ranges.\ Takes\ score\ value\ from\ final\ value\ of\ score\ objects\ in\ game\ (prior\ to\ death).\r\n\ \r\n
+comment1.params=
+comment1.target=void\ prepare()
+comment1.text=\r\n\ Prepare\ the\ world\ and\ add\ the\ necessary\ objects\ once\ Flappy\ has\ died.\r\n\ This\ is\ where\ reset\ button\ and\ game\ over\ object\ are\ added,\ along\ with\ the\ final\ score\ achieved\ in\ game.\r\n
+numComments=2

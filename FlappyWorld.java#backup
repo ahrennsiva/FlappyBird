@@ -1,0 +1,46 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class FlappyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class FlappyWorld extends World
+{
+    int pipeVisibility;
+    final int PIPE_SPACING = 138;
+    int counter = 0;
+    /**
+     * Constructor for objects of class FlappyWorld.
+     * 
+     */
+    public FlappyWorld()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(600, 400, 1,false); 
+        //Create a Flappy Bird Object
+        FlappyBird flappy = new FlappyBird();
+
+        //Add flappy to our world
+        addObject(flappy,100,getHeight()/2);
+
+    }
+
+    public void act(){
+        counter++;
+        if (counter == 100){
+            //Create a pipe object
+            Pipe bottomPipe = new Pipe();
+            Pipe topPipe = new Pipe();
+            topPipe.setImage("top_pipe.png");
+            bottomPipe.setImage("bottom_pipe.png");
+            GreenfootImage bottom = bottomPipe.getImage();
+            GreenfootImage top = topPipe.getImage();
+            pipeVisibility = Greenfoot.getRandomNumber(200);;
+            addObject(bottomPipe, getWidth(),getHeight()/2 + bottom.getHeight()- pipeVisibility);
+            addObject(topPipe, bottomPipe.getX(),bottomPipe.getY()- bottomPipe.getImage().getHeight()- PIPE_SPACING);
+            counter = 0;
+        }
+    }
+}

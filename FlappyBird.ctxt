@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ Method\ that\ performs\ main\ Flappy\ Bird\ actions.\ This\ determines\ the\ location\ of\ Flappy\ Bird\ on\ the\ screen,\ sets\ his\ movement\ values,\ and\ location.\r\n\ Additionally,\ this\ determines\ when\ collisions\ are\ made,\ or\ pipes\ are\ passed\ through;\ to\ determine\ when\ to\ go\ to\ Death\ screen,\ and\ when\ to\ increase\ score.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ displayGameOver()
+comment1.text=\r\n\ Method\ that\ displays\ Game\ Over\ on\ FlappyWorld\ screne.\r\n\ This\ method\ sets\ the\ location\ to\ display\ the\ GameOver\ screen,\ and\ the\ cases\ in\ which\ this\ is\ to\ be\ used\ are\ set\ in\ main\ act\ method\ above.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ rotateFlappyBird()
+comment2.text=\r\n\ Rotates\ Flappy\ Bird\ to\ a\ certain\ angle\ in\ relation\ to\ the\ y-direction\ movement\ value.\ \r\n\ This\ is\ essentially\ based\ on\ mouse\ clicking\ and\ speed\ of\ Flappy.\ \ \ \ \ \r\n\ \r\n
+numComments=3

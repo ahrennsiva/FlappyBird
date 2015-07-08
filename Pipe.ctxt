@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ Sets\ the\ location\ of\ the\ pipe\ based\ on\ velocity\ of\ pipes\ that\ has\ been\ set.\r\n\ This\ also\ removes\ the\ pipes\ once\ they\ are\ off\ screen;\ to\ make\ the\ game\ less\ laggy\ and\ more\ efficient.\r\n
+numComments=1
